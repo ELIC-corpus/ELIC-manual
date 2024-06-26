@@ -1,0 +1,161 @@
+# Transcription {#transcription}
+
+Transcribers will receive a .wav audio file and a Praat .TextGrid file, with utterance boundaries marked (and possibly with a preliminary automatic transcription, if this is helpful). Instructions for using Praat for transcription are included in Section \@ref(using-praat-transcription), while the conventions for transcription are described in the following sections.
+
+## Using Praat to transcribe audio {#using-praat-transcription}
+
+Transcribers will be given detailed instructions and will be trained in Praat prior to beginning their work. These instructions are intended just as brief reminders for using Praat.
+
+- Open the .wav and corresponding .TextGrid file in Praat. Start Praat by double-clicking on the Praat icon, use the menu items *Open > Read from file*, then select the files.
+
+- Click on the first file in the Praat Objects window and shift click on the second file to select them both.
+
+- Click the **View & Edit** button on the right side of the Objects window. Use the **in** and **out** buttons on the bottom of the Editor window to zoom in or out as needed.
+
+- Click in an interval to select it (the active interval will be highlighted in yellow).
+
+- Use the Tab key to start and stop playback of the audio. You can reselect the interval to move the cursor back to the beginning, or click anywhere in the spectrogram or waveform to place the cursor at the desired position.
+
+- Adjust the utterance boundaries as needed. Click on a boundary and drag to reposition it. To add a new boundary, click in the spectrogram or waveform to place the cursor, then click in the circle at the top of the tier where you want to place the boundary. To delete a boundary, select the boundary you want to remove and press Alt + Delete (Windows) or Option + Delete (Mac).
+
+- Type the transcription in the active interval or in the text editor box at the top of the window.
+
+- Save your work regularly! Praat does not automatically save anything, so be sure to save your TextGrid file (*Save > Save as text file*) every few minutes. You do NOT need to re-save the audio file, because you will not be making any changes to it.
+
+**Suggested workflow:** 
+
+It is generally easier to transcribe audio in successive phases:
+
+1. Do a rough transcription that captures all the important words, assigning the transcription to the correct speaker (i.e., making sure that the transcription is in the appropriate tier).
+
+2. Listen to the audio again and add fillers, hesitations, repetitions, self-corrections, and non-linguistic events.
+
+3. Review the transcription for accuracy and make corrections as needed.
+
+## General principles for transcription {#general-principles-transcription}
+
+We use a simple system for transcribing speech. Since the audio will be available alongside the transcription in the final product, it is not necessary to indicate certain finer details that are marked in some systems of transcription (e.g., measuring pauses or indicating emphasis or intonation patterns). The system described here is similar to the HIAT conventions (https://www.exmaralda.org/pdf/HIAT_EN.pdf) and to conventions often used in conversation analysis. It generally follows standard orthographic principles and uses fewer special symbols than CHAT, GAT2 or the Jeffersonian system of transcription, in order to make the transcription more easily readable and accessible to a wider audience. The transcription of individual varieties is described in more detail in the following sections. 
+
+**Rules for transcription**
+
+- Audio is generally segmented into breath groups, which are understood to correspond to utterances. However, if a short breath occurs in a place that would prevent a coherent translation, utterance boundaries may be adjusted accordingly.
+
+- Use standard orthographic conventions (or conventions specified below), including capitalization. 
+
+- Spell out numbers, dates, and other words that are typically abbreviated in writing.
+
+- Use conventional spellings for interjections. Common interjections are listed in the sections for the different languages below.
+
+- Use single parentheses for uncertain words or phrases in the transcription; e.g., (word)
+
+- If a word or phrase is completely unintelligible, write the letter x in single parentheses (x). However, this should be used only as a last resort. Whenever possible, make your best guess as to what was said and enclose it in parentheses, as noted above. Leaving unintelligible words or phrases as (x) may cause problems in the forced alignment of the transcription with the audio.
+
+- Use standard punctuation to terminate complete utterances:  
+assertions .  
+questions ?  
+exclamations !  
+
+
+- Self interruptions or hesitations followed by retracing, repair, or reformulation are indicated by a single hyphen, followed by a blank space: - . For example:
+
+  *i- i- i- vajk su gledali za nikako poć napret*\
+  'and- and- and- they always looked to get ahead somehow'.
+  
+  If the word is incomplete, transcribe as much as you hear; e.g., *Is- Istra*
+
+- A short pause within an utterance is indicated by a period within single parentheses: (.)
+
+- An audible breath within an utterance is indicated by ((breath)). If there is a breath during a pause between utterances, no notation is needed.
+
+- Other non-linguistic events are described in double parentheses; e.g. ((coughs)), ((laughs)), etc. These can be labeled in English, Croatian, or Italian.
+
+Example:
+
+*@ Trviž je- @ Trviš kako Trviš je @- je @ (.) mićo mesto, nekih @ ((coughs)) (dvestotinjak) judi ima, ali @ s- župa Trviš ima- je veća.*\  
+'Uh Trviž is- uh Trviž itself is uh- is uh a little place, it has some (two hundred) people, but uh s- Trviž Parish has- is bigger.'
+
+## Čakavian and Štokavian varieties {#čakavian-štokavian-transcription}
+
+Use characters from the standard Croatian alphabet. Čakavian [t^j^] and Štokavian [tɕ] are both written with the character *ć*. Diphthongs are written as a sequence of two vowels; e.g., *ie, uo*. These are standard practices in Croatian dialectology, and they make the transcription accessible for Croatian speakers.
+
+Some Čakavian varieties may require additional characters, which are indicated in parentheses. 
+
+```
+a b c č ć d đ dž e f g h i j k l lj m n nj o p r s š t u v z ž
+
+(å = [ɒ], ẹ = close [e] vs. e = open [ɛ], ọ = close [o] vs. o = open [ɔ],  
+ü = [y], ö = [ø], ə, ɣ, x)
+
+```
+
+In dialects that have consistent word-final devoicing, this should be indicated in the transcription. <span style="color: red;">[?? not sure if this is a good idea; voicing may vary within the same variety or speaker, depending on the context]</span>
+
+Common fillers indicating hesitation: @ = [ə] (like English "uh"; no conventional spelling exists in Croatian), hm
+
+Common interjections indicating speaker attitudes/feelings: *uh, oh, eh, ih, ah, joj, ijuju, oho, ej, haj, hoj, uf, pi, fuj, juhuhu, kuku, ao, ua*
+
+## Istro-Romanian {#istro-romanian-transcription}
+
+We adopt the system used for Co-PI Vrzić's previous project. (Description to be added.)
+
+## Istriot {#istriot-transcription}
+
+Conventions to be determined.
+
+## Istro-Venetian and Fiuman {#istro-venetian-transcription}
+
+This orthographic transcription system was developed and agreed upon during the Endangered Languages in Contact (ELIC) workshop at the University of Rijeka and University in Pula in June 2023 by a working group consisting of Zvjezdana Vrzić, Ivana Lalli-Paćelat, Sarah Zancovich, Milena Korenika, and Dario Ban. It is an attempt to transcribe the audio recordings orthographically (i.e., not by using the International Phonetic Alphabet) as consistently as possible, while taking into account existing written usage in Istro-Venetian/Fiuman. Since a standard orthography does not exist for Istro-Venetian/Fiuman, the written form of the variety varies from author to author and resource to resource. This is not an attempt to propose a standard way of writing this variety.
+
+General conventions (in addition to those given at the beginning of Section 4.2):
+
+- Use standard Italian orthography unless special orthographic transcription conventions are necessary for Istro-Venetian/Fiuman (see below).
+
+- Use standard Italian orthography when, according to your judgment, it is clear that the speaker is saying a word or a phrase in standard Italian, e.g. st. It. *scuola*, not Istro-Venetian/Fiuman *scola*.
+
+- Use standard Croatian orthography when, according to your judgment, it is clear that the speaker is saying a word or a phrase in (standard) Croatian, e.g. *mi son* **zadužena** *per le torte*. For dialectal Čakavian forms, follow the instructions for transcribing Čakavian in Section 4.3.
+
+- Use conventional spellings for interjections. Common interjections in Istro-Venetian/Fiuman are: *ah, ahi, ahimè, beh, boh, eh, ehi, mah, oh, na, uffa, uh, ehm, ok!*
+
+- Transcribe paralinguistic elements (e.g., *hm, mhm*, etc.) using conventions common in your language. For the very common sound of hesitation, pronounced as [ə], use @ unless there is a conventional spelling for this in your language.
+
+The following table lists graphemes or digraphs (i.e., letters or combinations of letters) whose usage is specific to Istro-Venetian/Fiuman.
+
+|Letter|Approximate phonetic value|Istro-Venetian examples|Notes|
+|:-----|:-----|:-----|:-----|
+|**\<s\>**|Cr. [š]/[s]<br>(IPA [ʃ] or [ɕ]/[s])|*insieme,mestier*||
+|**\<s\>**|Cr. [š]<br>(IPA [ʃ] or [ɕ])|*sugaman, simia, siropo, sempio, suto*|It. *asciugamano, scimmia, sciroppo, scempio, asciutto*|
+|**\<s\>**|Cr. [ž]/[z]<br>(IPA [ʒ] or [ʑ]/[z])|*disi, cusir*|Between two vowels.|
+|**\<ss\>**|Cr. [š]/[s]<br>(IPA [ʃ] or [ɕ]/[s])|*nessun, cussì, podessi, cussin, pesse, capissi, cressuda, lassime*|Between vowels; cf. It. *nessuno, così, potessi, cuscino, pesce, capisci, cresciuta, lasciami*|
+|**\<z\>**|Cr. [ž]/[z]<br>(IPA [ʒ] or [ʑ]/[z])|*zenero, za, zenocio*|It. genero, già, ginocchio|
+|**\<z\>**|Cr. [c]<br>(IPA [ts])|*fazevo, prezi, fazoleto*|It. *facevo, prezzi, fazzoletto*|
+|**\<x\>**|Cr. [ž]/[z]<br>(IPA [ʒ] or [ʑ]/[z]|*xe*|Pres.3Sing and 3Plur of *esser* 'to be'|
+|**\<s'c\>**|Cr. [šč]/[šć]<br>(IPA [ʃtʃ]/[ɕtɕ])|*mas'cio, s'ciopar*|It. *maschio, scoppiare*|
+
+**Other orthographic conventions**
+
+- As a general rule, do not use geminated (double) consonants (except as indicated in the table above). For example, you should normally write *tuto* (not *tutto*).<br>However, per the directions above, you should mark a geminated consonant if the pronunciation immediately strikes you as containing one, suggesting the use of standard Italian pronunciation (e.g., if the speaker clearly pronounces [tutto], you may write *tutto*). You do not need to specifically listen for the distinction between single and geminated consonants, which is often very subtle. When in doubt, use a single consonant.
+
+- Mark accents when the position of the stress diverges from the usual stress pattern (as is also done in standard Italian).<br>in truncated past participles; e.g., *go publicà, vegnù, gavè*<br>in specific lexical items; e.g., *ventitré, università, cità, cussì, però, perché, più, ciò, là, lì, né, sé, sì, tè*
+
+- Use an apostrophe, following the standard Italian usage, to mark the cases of *elisione*; e.g., *l'* (for *la*)
+
+- Do not use an apostrophe, following the standard Italian usage, to mark the cases of *troncamento*; e.g., *dess* (for *adesso*), *do* (for *dove*).
+
+- Exceptionally, use an apostrophe when *troncamento* happens at the beginning of the word and in certain exceptional cases, such as *t'sa* (for *ti sa*).<br>Examples:<br>*'na volta* (for *una volta*)<br>*'vanti* (for *avanti*)<br>*'demo, 'ndemo* (for *andemo*)<br>*'sta* (for *questa*)
+
+- Transcribe the definite article and complex prepositions (prepositions with articles) as shown in the following table.
+
+|Masc.Sing|Fem.Sing|Masc.Plur|Fem.Plur|
+|:-----|:-----|:-----|:-----|
+|*el, 'l*<br>see note|*la, l'*|*i*|*le*|
+|*al*|*a la, a l'*|*ai*|*a le*|
+|*del*|*de la, de l'*|*dei*|*de le*|
+|*intel*|*inte la, inte l'*|*intei*|*inte le*|
+|*sul*|*su la, su l'*|*sui*|*se le*|
+|*nel*|*ne la, ne l'*|*nei*|*ne le*|
+|*col*|*co la, co l'*|*coi*|*co le*|
+
+Note: The contracted version of the definite masculine article is written as *'l*; e.g., *ogni domenica la fa 'l pranzo*.
+
+
+
