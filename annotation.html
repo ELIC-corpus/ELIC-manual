@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 5 Annotation | ELIC corpus: Procedures and guidelines</title>
   <meta name="description" content="Chapter 5 Annotation | ELIC corpus: Procedures and guidelines" />
-  <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 5 Annotation | ELIC corpus: Procedures and guidelines" />
   <meta property="og:type" content="book" />
@@ -23,7 +23,7 @@
 <meta name="author" content="Keith Langston and Zvjezdana Vrzić" />
 
 
-<meta name="date" content="2024-07-09" />
+<meta name="date" content="2024-12-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -112,7 +112,7 @@
 <li class="chapter" data-level="5" data-path="annotation.html"><a href="annotation.html"><i class="fa fa-check"></i><b>5</b> Annotation</a>
 <ul>
 <li class="chapter" data-level="5.1" data-path="annotation.html"><a href="annotation.html#using-ELAN-annotation"><i class="fa fa-check"></i><b>5.1</b> Using ELAN to annotate audio</a></li>
-<li class="chapter" data-level="5.2" data-path="annotation.html"><a href="annotation.html#lemmatization"><i class="fa fa-check"></i><b>5.2</b> Lemmatization and glossing</a>
+<li class="chapter" data-level="5.2" data-path="annotation.html"><a href="annotation.html#lemmatization"><i class="fa fa-check"></i><b>5.2</b> Lemmatization</a>
 <ul>
 <li class="chapter" data-level="5.2.1" data-path="annotation.html"><a href="annotation.html#čakavian-lemmatization"><i class="fa fa-check"></i><b>5.2.1</b> Čakavian</a></li>
 <li class="chapter" data-level="5.2.2" data-path="annotation.html"><a href="annotation.html#istro-romanian-lemmatization"><i class="fa fa-check"></i><b>5.2.2</b> Istro-Romanian</a></li>
@@ -130,12 +130,13 @@
 <ul>
 <li class="chapter" data-level="5.4.1" data-path="annotation.html"><a href="annotation.html#čakavian-morphosyntactic-features"><i class="fa fa-check"></i><b>5.4.1</b> Čakavian</a></li>
 <li class="chapter" data-level="5.4.2" data-path="annotation.html"><a href="annotation.html#istro-romanian-morphosyntactic-features"><i class="fa fa-check"></i><b>5.4.2</b> Istro-Romanian</a></li>
-<li class="chapter" data-level="5.4.3" data-path="annotation.html"><a href="annotation.html#istriot-istro-venetian-morphosyntactic-features"><i class="fa fa-check"></i><b>5.4.3</b> Istriot and Istro-Venetian</a></li>
+<li class="chapter" data-level="5.4.3" data-path="annotation.html"><a href="annotation.html#istriot-morphosyntactic-features"><i class="fa fa-check"></i><b>5.4.3</b> Istriot</a></li>
+<li class="chapter" data-level="5.4.4" data-path="annotation.html"><a href="annotation.html#istro-venetian-morphosyntactic-features"><i class="fa fa-check"></i><b>5.4.4</b> Istro-Venetian</a></li>
 </ul></li>
 <li class="chapter" data-level="5.5" data-path="annotation.html"><a href="annotation.html#language-contact"><i class="fa fa-check"></i><b>5.5</b> Language contact phenomena</a></li>
-<li class="chapter" data-level="5.6" data-path="annotation.html"><a href="annotation.html#translation"><i class="fa fa-check"></i><b>5.6</b> Translation</a>
+<li class="chapter" data-level="5.6" data-path="annotation.html"><a href="annotation.html#translation"><i class="fa fa-check"></i><b>5.6</b> Translation and glosses</a>
 <ul>
-<li class="chapter" data-level="5.6.1" data-path="annotation.html"><a href="annotation.html#čakavian-translation"><i class="fa fa-check"></i><b>5.6.1</b> Čakavian</a></li>
+<li class="chapter" data-level="5.6.1" data-path="annotation.html"><a href="annotation.html#čakavian-čakavian-translation"><i class="fa fa-check"></i><b>5.6.1</b> Čakavian {čakavian-translation}</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
@@ -162,31 +163,29 @@
 <div id="annotation" class="section level1 hasAnchor" number="5">
 <h1><span class="header-section-number">Chapter 5</span> Annotation<a href="annotation.html#annotation" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>Annotators will receive an ELAN file (.eaf) containing a time-aligned transcription at the utterance and word levels, with all additional tiers already set up for the necessary annotations. Annotation instructions for the individual languages are given in the following sections.</p>
-<div class="figure">
-<img src="ELAN-tiers.png" alt="" />
-<p class="caption">Sample ELAN grid with tiers for speaker and interviewer</p>
+<div class="float">
+<img src="ELAN-tiers.png" alt="Sample ELAN grid with tiers for speaker and interviewer" />
+<div class="figcaption">Sample ELAN grid with tiers for speaker and interviewer</div>
 </div>
 <div id="using-ELAN-annotation" class="section level2 hasAnchor" number="5.1">
 <h2><span class="header-section-number">5.1</span> Using ELAN to annotate audio<a href="annotation.html#using-ELAN-annotation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>(add basic instructions; annotators will be trained to use ELAN)</p>
 </div>
 <div id="lemmatization" class="section level2 hasAnchor" number="5.2">
-<h2><span class="header-section-number">5.2</span> Lemmatization and glossing<a href="annotation.html#lemmatization" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<h2><span class="header-section-number">5.2</span> Lemmatization<a href="annotation.html#lemmatization" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>A lemma is the “basic” form of the word, normally the citation form that is used as the head word in dictionary entries. Lemmas should be entered in the Lemma tier for each corresponding form on the Words tier. You do not need to enter lemmas for fillers like “uh”, “um” (whatever their form in the individual languages) that simply indicate hesitation and have no real meaning.</p>
-<p>The gloss is conventionally a translation of the base form (lemma). For example, the auxiliary <em>je</em> ‘is’ is lemmatized as <em>bit</em> and glossed as ‘be’. The morphosyntactic feature specifications (Pres.3Sing) indicate that the form corresponds to English ‘is’. For verbs where the translation into English is different when <em>se</em> is present, you should include (se) in parentheses as part of the gloss. For example, <em>roditi</em> means ‘give birth’, but with <em>se</em> would be glossed as ‘(se) be born’. Proper nouns are just glossed as themselves (e.g., <em>Trviž</em>, Gloss = Trviž), but for more obscure names whose referent is not obvious from the context, you should add an explanation; e.g., <em>Škujica</em>, Gloss = Škujica (name of a square in Vrbnik).</p>
-<p>Lemmas are written using the transcription conventions for the individual variety. Proper nouns are capitalized, but other forms are in lower case. (Example word-forms in the main text here are given in italics, to set them off from the rest of the text, but in ELAN everything will be in plain text, without this formatting.)</p>
-<p>Partial words (where there is hesitation, reformulation, self-correction) should not be glossed (although they may be included in the free translation, as seems appropriate).</p>
+<p>Lemmas are written using the transcription conventions for the individual variety. Proper nouns are capitalized, but other forms are in lower case. (Examples below are in italics, to set them off from the rest of the text, but in ELAN everything will be in plain text, without this formatting.)</p>
 <div id="čakavian-lemmatization" class="section level3 hasAnchor" number="5.2.1">
 <h3><span class="header-section-number">5.2.1</span> Čakavian<a href="annotation.html#čakavian-lemmatization" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The citation forms used as lemmas are as follows:</p>
 <ul>
 <li><p>for <strong>nouns</strong>: nominative singular. For example, the lemma for the word-form <em>vuci</em> ‘wolves’ is <em>vuk</em>)</p></li>
-<li><p>for <strong>pronouns</strong>: nominative singular (masculine, if the form is a pronominal modifier). For example, the lemma for <em>ga</em> ‘him’ (Prs.Masc.3Sing.Gen-Acc) is <em>on</em> ‘he’; the lemma for <em>tu</em> ‘that’ (Dem.Fem.Acc.Sing) is <em>ta</em> (Masc.Nom.Sing), <em>ti</em> (Masc.Nom.Sing) or <em>taj</em>, depending on the dialect. The different forms of the third person pronoun are treated as separate lemmas: <em>on, ona, ono, oni, one, ona</em>.</p></li>
-<li><p>for <strong>adjectives</strong>: nominative singular masculine indefinite (or definite, if a distinct indefinite form is not used/does not exist). For example, the lemma for <em>dobre</em> ‘good’ (Fem.Gen.Sing) is <em>dobar</em>. For comparative and superlative forms, use the positive degree as the lemma, <strong>unless</strong> the comparative form is suppletive. For example, the lemma for <em>topliji</em> ‘warmer’ is <em>topao</em>, but the lemma for <em>najbolji</em> ‘best’ is <em>bolji</em>, and not <em>dobar</em>. For other irregular comparative forms, you can list both the base form and the comparative as the lemma, separated by a vertical pipe symbol |; e.g., for <em>najlepča</em> the lemma can be listed as lep|lepči.</p></li>
+<li><p>for <strong>pronouns</strong>: nominative singular (masculine, if the form is a pronominal modifier). For example, the lemma for <em>ga</em> ‘him’ (3Sing.Masc.Gen-Acc) is <em>on</em> ‘he’; the lemma for <em>tu</em> ‘that’ (Fem.Acc.Sing) is <em>taj</em>.</p></li>
+<li><p>for <strong>adjectives</strong>: nominative singular masculine indefinite (or definite, if a distinct indefinite form is not used/does not exist). For example, the lemma for <em>dobre</em> ‘good’ (Fem.Gen.Sing) is <em>dobar</em>. For regular comparative and superlative forms, use the positive degree as the lemma. For (semi-)suppletive comparative/superlative forms, both the suppletive comparative degree and the positive degree should be listed. For example, the lemma for <em>topliji</em> ‘warmer’ is <em>topao</em>, and the lemma for <em>najbolji</em> ‘best’ is <em>dobar|bolji</em>.</p></li>
 <li><p>for <strong>adverbs</strong>: even though most adverbs are formed regularly from adjectives, they should be lemmatized as adverbs (e.g., <em>dobro</em> ‘good’, and not <em>dobar</em>)</p></li>
-<li><p>for <strong>verbs</strong>: infinitive. If the variety being transcribed normally has infinitives in <em>-t</em> or <em>-ć</em> (without the final <em>-i</em>; e.g., <em>kantat</em> ‘to sing’), then this is the form that you should use for the lemma. If it is not clear whether the form represents a code-switch to standard Croatian/štokavian, you may list both forms, separated by a vertical pipe |; e.g., isticat|isticati ‘to emphasize’. For verbs that only occur with <em>se</em>, the <em>se</em> should be included in the lemma, even though the verb and the reflexive pronoun are treated as separated words in the transcription; e.g., Pres.1Plur <em>družimo</em> would be lemmatized as <em>družit se</em> ‘to socialize’. The verb ‘go’ is suppletive; Inf. <em>poć</em>, Pres <em>gren, greš</em> etc., Past.Ptcp <em>ša(l), šla</em> etc.</p></li>
+<li><p>for <strong>verbs</strong>: infinitive. If the variety being transcribed normally has infinitives in <em>-t</em> or <em>-ć</em> (without the final <em>-i</em>; e.g., <em>kantat</em> ‘to sing’), then this is the form that you should use for the lemma. If it is not clear whether the form represents a code-switch to standard Croatian/štokavian, you may list both forms, separated by a vertical pipe; e.g., isticat|isticati ‘to emphasize’. For verbs that only occur with <em>se</em>, the <em>se</em> should be included in the lemma, even though the verb and the reflexive pronoun are treated as separated words in the transcription; e.g., Pres.1Plur <em>družimo</em> would be lemmatized as <em>družit se</em> ‘to socialize’. The verb ‘go’ is suppletive; Inf. <em>poć</em>, Pres <em>gren, greš</em> etc., Past.Ptcp <em>ša(l), šla</em> etc.</p></li>
 </ul>
-<p>In some instances, there are variant forms of lemmas that are used interchangeably (e.g., <em>kad</em> and <em>kada</em> ‘when’). In other cases, it may not be clear what the phonological form of the lemma is in a given variety, based on the form that occurs in the interview (e.g., present tense <em>mislin</em> could correspond to an infinitive <em>mislit</em> or <em>mislet</em>; since there is variation in the reflexes of jat’ (*ě) in some forms within individual dialects, there may be no way to be sure what the “correct” form is). In these cases, both variants should be listed, separated by a vertical pipe |; e.g., kad|kada.</p>
+<p>In some instances, there are variant forms of lemmas that are used interchangeably (e.g., <em>kad</em> and <em>kada</em> when). In other cases, it may not be clear what the phonological form of the lemma is in a given variety, based on the form that occurs in the interview (e.g., present tense <em>mislin</em> could correspond to an infinitive <em>mislit</em> or <em>mislet</em>; since there is variation in the reflexes of jat’ in some forms within individual dialects, there may be no way to be sure what the “correct” form is). In these cases, both variants should be listed, separated by a vertical pipe |; e.g., kad|kada.</p>
 </div>
 <div id="istro-romanian-lemmatization" class="section level3 hasAnchor" number="5.2.2">
 <h3><span class="header-section-number">5.2.2</span> Istro-Romanian<a href="annotation.html#istro-romanian-lemmatization" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -196,16 +195,25 @@
 </div>
 <div id="istro-venetian-lemmatization" class="section level3 hasAnchor" number="5.2.4">
 <h3><span class="header-section-number">5.2.4</span> Istro-Venetian<a href="annotation.html#istro-venetian-lemmatization" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The citation forms used as lemmas are as follows:</p>
+<ul>
+<li><p>for <strong>nouns</strong>: singular. For example, the lemma for the word-form <em>taliani</em> ‘Italians’ is <em>talian</em>)</p></li>
+<li><p>for <strong>pronouns</strong>: the singular stressed form of a pronoun (masculine, if the form is a pronominal modifier and shows agreement). For example, the lemma for <em>me</em> ‘me’ (Prs.1Sing.Dat-Acc) is <em>mi</em> ‘I’; the lemma for <em>mia</em> ‘my, mine’ (Poss.1Sing.Fem.Sing) or <em>mii</em> ‘my, mine’ (Poss.1Sing.Masc.Plur) is <em>mio</em>. The different forms of the third person pronoun are treated as separate lemmas: <em>lui</em> ‘he’, <em>ela</em> ‘she’, <em>lori</em> ‘they.Masc’, <em>lore</em> ‘they.Fem’. Thus, the lemma for <em>la</em> ‘she/her’ (Prs.Fem.3Sing.Nom-Acc) is <em>ela</em>; the lemma for <em>ghe</em> ‘her, him, them’ (Prs.Masc-Fem.3Sing-Plur.Dat) is <em>lui|ela|lori|lore</em>.</p></li>
+<li><p>for <strong>adjectives</strong>: singular masculine. For example, the lemma for <em>pici</em> ‘small’ (Masc.Plur) is <em>picio</em>.</p></li>
+<li><p>for <strong>adverbs</strong>: same as the word form. Suppletive comparative or superlative forms are lemmatized with both the positive degree and the suppletive form. For example, the lemma for <em>meio</em> ‘better, best’ is <em>ben|meio</em>.</p></li>
+<li><p>for <strong>verbs</strong>: infinitive. For verbs that only occur with the reflexive pronoun <em>se</em>, the <em>se</em> should be included in the lemma, even though the verb and the reflexive pronoun are usually written as separate words in the transcription. For example, for <em>se divertimo</em> ‘we’re having fun’, the lemma is <em>divertirse</em>. For verbs with suppletive forms, the lemma should include both the infinitive and the suppletive first person singular present tense form. For example, for <em>va</em> ‘you go, s/he goes, they go’, the lemma is <em>andar|vado</em>.</p></li>
+</ul>
+<p>In some instances, there are variant forms of lemmas that are used interchangeably; e.g., <em>per</em> and <em>par</em> ‘for’. In these cases, both variants should be listed, separated by a vertical pipe; e.g., <em>per|par</em>.</p>
 </div>
 </div>
 <div id="pos-tags" class="section level2 hasAnchor" number="5.3">
 <h2><span class="header-section-number">5.3</span> Part of speech tags<a href="annotation.html#pos-tags" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>The part of speech for individual words is labeled in the PoS tier.</p>
+<p>The part of speech for individual words is labeled in the POS tier.</p>
 <p>This project uses a slightly modified version of the <a href="https://universaldependencies.org/u/pos/index.html">Universal Dependencies</a> tagset, which aims to provide a standard system for all languages and is becoming increasingly widely used in corpora. Some of the main differences are:</p>
 <ul>
 <li><p>all types of conjunctions are labeled simply as CONJ in this corpus, while the Universal Dependencies tagset distinguishes between coordinating conjunctions and subordinating conjunctions</p></li>
 <li><p>personal names are distinguished from other types of proper nouns (so that they can be masked in the audio)</p></li>
-<li><p>the copula is not distinguished from ‘to be’ as an auxiliary verb (both are labeled as AUX). This applies even in instances such as <em>bili su</em>; <em>bili</em> here is a copula, and in our system is labeled as AUX, even though this makes it appear that there is no “main” verb.</p></li>
+<li><p>the copula is not distinguished from ‘to be’ as an auxiliary verb (both are labeled as AUX)</p></li>
 </ul>
 <p>We also do not label punctuation or symbols, since this is a spoken corpus. The labels for part of speech (POS) tags are shown in the table below.</p>
 <p>POS tags should be written in all caps, as shown here.</p>
@@ -275,24 +283,23 @@
 </tr>
 </tbody>
 </table>
-<p>Following UD, we use the DET part of speech for Slavic varieties included in this corpus, despite the fact that they lack definite or indefinite articles (as a required part of noun phrases; see below) and that traditional grammatical descriptions do not refer to determiners; see <a href="https://universaldependencies.org/u/pos/DET.html" class="uri">https://universaldependencies.org/u/pos/DET.html</a> . Although there is disagreement about whether languages without articles require us to posit a DP in the syntactic structure, the category of DET is used here in order to promote consistency in the tagging of the different varieties included in the corpus. The numeral <em>jedan</em> ‘one’ can be used as an indefinite article, and will be labeled as such.</p>
+<p>Following UD, we use the DET part of speech for Slavic varieties included in this corpus, despite the fact that they lack definite or indefinite articles and that traditional grammatical descriptions do not refer to determiners; see <a href="https://universaldependencies.org/u/pos/DET.html" class="uri">https://universaldependencies.org/u/pos/DET.html</a> . Although there is disagreement about whether languages without articles require us to posit a DP in the syntactic structure, the category of DET is used here in order to promote consistency in the tagging of the different varieties included in the corpus.</p>
 <p>Examples from the individual languages are given in the following sections.</p>
 <div id="čakavian-pos" class="section level3 hasAnchor" number="5.3.1">
 <h3><span class="header-section-number">5.3.1</span> Čakavian<a href="annotation.html#čakavian-pos" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Note: Čakavian examples are cited as generic ekavian forms. Individual dialects may have other phonological differences.</p>
-<p>There are two auxiliary verbs, <em>bit(i)</em> ‘be’ and <em>(s)tet(i)/otet(i)</em>. The verb <em>bit(i)</em> is also tagged as AUX when it is used as a copula.</p>
+<p>There are two auxiliary verbs, <em>bit(i)</em> ‘be’ and <em>(s)tet(i)</em>. The verb <em>bit(i)</em> is also tagged as AUX when it is used as a copula.</p>
+<p>The form <em>se</em> is tagged as PRON (with the Pronoun type Refl) in all instances, regardless of whether it is functioning as a true reflexive/reciprocal pronoun or is marking a passive or impersonal construction.</p>
 <p>The common expression <em>po domaći / po domaće / po domaću</em> should be written as two separate words, but treated as a single unit (ADV) in the forced alignment and ELAN annotations.</p>
-<p>The form <em>se</em> (as in <em>družimo se</em>) is always treated here as a <strong>pronoun</strong> (a clitic form of <em>sebe</em> ‘oneself’), even though it could also be reasonably analyzed as a particle, in at least some contexts.</p>
 <p>According to UD, “Determiners are words that modify nouns or noun phrases and express the reference of the noun phrase in context.” The DET tag includes the following groups of forms:</p>
 <ul>
 <li>Pronominal modifiers: possessive pronouns (<em>moj</em> ‘my’, <em>naš</em> ‘our’, etc.), demonstratives (<em>ta</em>/<em>ti</em> ‘that’, <em>takov</em> ‘that kind of’, etc.), interrogative, indefinite, and relative pronominal modifiers (<em>ki</em> ‘which’, <em>neki</em> ‘some’, <em>kakov</em> ‘what kind of’, <em>čigov</em> ‘whose’, etc.)</li>
-<li>Quantifiers: (<em>s(v)a</em>/<em>vas</em> ‘all, the whole’, <em>s(v)aki</em> ‘each, every’, <em>malo</em> ‘little’, etc.), excluding numerals, which have their own separate tag (NUM).</li>
-<li>The numeral <em>jedan</em> is frequently used as an indefinite article ‘a/an’ or indefinite pronoun ‘some’, rather than in the meaning ‘one’. In these contexts, it should be labeled as DET, with the pronoun type Ind (Indefinite) and the appropriate gender, case, and number features.</li>
+<li>Quantifiers: (<em>s(v)a</em>/<em>vas</em> ‘all, the whole’, <em>s(v)aki</em> ‘each, every’, <em>malo</em> ‘little’, etc.), excluding numerals, which have their own separate tag (NUM)</li>
 </ul>
+<p><span style="color: red;">Decide whether to treat ordinal numbers as NUM or ADJ; cf. Istro-Venetian</span></p>
 <p>Notice that the same form may be tagged differently depending on its function: e.g., in <em>kade so prodavali svega</em> ‘where they were selling everything [all sorts of things]’, <em>svega</em> should be tagged as PRON and not DET; in the phrase <em>malo boje</em> ‘a little better’, <em>malo</em> should be tagged as ADV and not DET.</p>
 <p>See examples in 5.4.1 below for POS and morphosyntactic feature tags for determiners and similar forms.</p>
 <p>Other common forms with multiple uses/functions:</p>
-<p><span style="color: red;">ADD other examples as needed</span></p>
 <table>
 <colgroup>
 <col width="50%" />
@@ -319,9 +326,7 @@
 </tr>
 </tbody>
 </table>
-<p>(Examples from Kalsbeek 1998)</p>
-<p>Particles include forms such as <em>baš, evo, god, li, ne, ono,</em> etc. The form <em>znači</em> ‘so, thus, therefore’ (i.e., not used as the verb ‘to mean’) should be tagged as CONJ.</p>
-<p>Interjections - add examples; put evo here instead?</p>
+<p>Particles include forms such as <em>da</em>, <em>ne</em>, <em>baš, evo, god, li, ono,</em> etc. The form <em>znači</em> ‘so, thus, therefore’ (i.e., not used as the verb ‘to mean’) should be tagged as CONJ.</p>
 </div>
 <div id="istro-romanian-pos" class="section level3 hasAnchor" number="5.3.2">
 <h3><span class="header-section-number">5.3.2</span> Istro-Romanian<a href="annotation.html#istro-romanian-pos" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -331,18 +336,54 @@
 </div>
 <div id="istro-venetian-pos" class="section level3 hasAnchor" number="5.3.4">
 <h3><span class="header-section-number">5.3.4</span> Istro-Venetian<a href="annotation.html#istro-venetian-pos" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Following the UD specifications for standard Italian, auxiliary verbs (AUX) include tense/aspect auxiliaries, passive auxiliaries, and modal verbs; e.g., <em>esser</em> ‘be’, <em>gaver</em> ‘have’, <em>star</em> ‘be’; <em>dover</em> ‘must’, <em>poter</em> ‘can’, <em>voler</em> ‘want’. The verb <em>esser</em> is also tagged as AUX when it is used as a copula, while verbs like <em>gaver</em>, <em>star</em>, <em>voler</em> are tagged as VERB when used as main verbs (meaning ‘possess’, ‘stay, remain’, ‘want [something]’).</p>
+<p>Complex prepositions combining a preposition and an article (in Italian, <em>preposizioni articolate</em>) are written together and treated as a single unit in the annotations. They are tagged with two part of speech tags connected by the symbol +. For example, <em>dela</em> ‘of the’ is tagged ADP+DET.</p>
+<p>Complex prepositions like <em>a parte</em> ‘except’ are glossed as separate words. Complex adverbs like <em>de solito</em> ‘usually’ are similarly glossed as separate words.</p>
+<p>Non-finite verb forms with attached pronominal clitics are written as a single word and treated as a single unit for annotation. They are tagged with multiple part of speech tags connected by the symbol +; e.g., <em>vegnirghe</em> ‘to come to him/her/them’ is tagged as VERB+PRON; <em>portameli</em> ‘bring them to me!’ is tagged as VERB+PRON+PRON.</p>
+<p>The pronominal form <em>se</em> is tagged as PRON (with the Pronoun type Refl) in all instances, regardless of whether it is functioning as a true reflexive/reciprocal pronoun or is marking a passive or impersonal construction.</p>
+<p>Ordinal numerals (e.g., <em>primo</em> ‘first’) are tagged as ADJ.</p>
+<p>According to UD, “Determiners are words that modify nouns or noun phrases and express the reference of the noun phrase in context.” The DET tag includes the following groups of forms:</p>
+<ul>
+<li>Articles; e.g., <em>un</em> ‘a’, <em>la</em> ‘the’</li>
+<li>Pronominal modifiers such as possessive pronouns (when used adjectivally), demonstratives, and interrogative, indefinite, negative indefinite and relative pronominal modifiers (e.g., <em>mio</em> ‘my’, <em>questa</em> ‘this’, <em>certi</em> ‘some’, <em>qual</em> ‘which’, etc.)</li>
+<li>Quantifiers such as <em>tuti</em> ‘all’, <em>ogni</em> ‘each, every’, <em>poco</em> ‘little’, etc., excluding numerals, which are tagged as NUM</li>
+</ul>
+<p>Notice that the same form may be tagged differently depending on its function. For example, in a sentence such as <em>go visto tuto</em> ‘I saw everything’, <em>tuto</em> should be tagged as a PRON, not a DET; in a phrase like <em>tute le mule</em> ‘all the girls’, <em>tute</em> should be tagged as a DET, not as a PRON.</p>
+<p>Other common forms with multiple uses/functions are:</p>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Form</th>
+<th align="left">POS and examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">se</td>
+<td align="left">CONJ ‘if’: ADD EXAMPLE<br>PRON reflexive ‘oneself’: ADD EXAMPLE</td>
+</tr>
+<tr class="even">
+<td align="left">che</td>
+<td align="left">PRON relative ADD EXAMPLE<br>CONJ ADD EXAMPLE<br>ADP ADD EXAMPLE<br>ADV ADD EXAMPLE<br>DET ADD EXAMPLE</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 <div id="morphosyntactic-features" class="section level2 hasAnchor" number="5.4">
 <h2><span class="header-section-number">5.4</span> Morphosyntactic features<a href="annotation.html#morphosyntactic-features" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Morphosyntactic features (e.g., number, gender, case, tense) are given in the Feats tier for each individual word (where relevant).</p>
 <p>As with the POS tags, this corpus uses a slightly modified version of the <a href="https://universaldependencies.org/u/feat/index.html">Universal Dependencies</a> feature inventory. In particular, some tags have been changed to make all POS and morphosyntactic feature tags distinct (e.g., UD uses PART for “particle” and Part for “participle”). Labels that are different from those in the UD inventory are shown in green.</p>
-<p>The first letter of the labels for individual morphosyntactic features is capitalized, and different features are separated by a period. The only exception is person and number, which are written with no period between them; e.g., 1Sing = first person singular. Features should be listed in the order shown in the tables below. The abbreviations are mainly self-explanatory, but an alphabetic list of abbreviations is given at the end.</p>
+<p>The first letter of the labels for morphosyntactic features is capitalized, and different features are separated by a period. Features should be listed in the order shown in the tables below. The abbreviations are mainly self-explanatory, but an alphabetic list of abbreviations is given at the end.</p>
 <p>Since the different languages have different grammatical systems, separate tables are given by language.</p>
 <div id="čakavian-morphosyntactic-features" class="section level3 hasAnchor" number="5.4.1">
 <h3><span class="header-section-number">5.4.1</span> Čakavian<a href="annotation.html#čakavian-morphosyntactic-features" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Note that we do not code definiteness or indefiniteness for adjectives, since this is not readily apparent in many instances. We also do not code for animacy, because this should be clear from the meaning and form of the noun (and any associated modifiers). Unlike the UD practices for some Slavic treebanks, we do code aspect, but these labels are presumptive, based on the context and on morphological features of the verbs in question; without a detailed study of the aspectual usage in individual varieties, we cannot be certain in all instances that these are correct. Only perfective (Pfv) aspect is marked overtly (see below).</p>
-<p>Other differences from UD (indicated in green):</p>
+<p>Note that we do not code definiteness or indefiniteness for adjectives, since this is not readily apparent in many instances. We do not use the pronoun type “clitic” to distinguish between clitic (unstressed) and full (stressed) pronominal forms; for some pronouns the forms are otherwise phonologically identical (e.g., Gen-Acc <em>nȁs</em> vs. <em>nas</em>), and the behavior of clitics in Čakavian is different from closely related Štokavian varieties, so we do not want to impose an analysis here. We also do not code for animacy, because this should be clear from the meaning and form of the noun (and any associated modifiers). Unlike the UD practices for some Slavic treebanks, we do code aspect, but these labels are presumptive, based on the context and on morphological features of the verbs in question; without a detailed study of the aspectual usage in individual varieties, we cannot be certain in all instances that these are correct. Only perfective (Pfv) aspect is marked overtly (see below).</p>
+<p>Other differences from UD (indicated in green in the table below):</p>
 <ul>
 <li><p>For some parts of speech, certain feature values are considered the default value and are unmarked (e.g., positive degree for adjectives, imperfective aspect for verbs)</p></li>
 <li><p>In some instances, abbreviations have been changed to make them unique (e.g., UD specifies Imp as the abbreviation for both imperative mood and imperfective aspect) or to conform to widely used standard terminology (e.g., Coll “collective” for collective numerals, rather than “Sets” in UD)</p></li>
@@ -374,7 +415,7 @@
 </tr>
 <tr class="even">
 <td align="left">AUX</td>
-<td align="left">Polarity: Neg (positive is unmarked - <span style="color: red;">CHECK UD)</span><br>Tense/Mood: Pres, <span style="color: green;">Pfv.Pres, Aor, Impf</span>, Cnd<br>Person/Number: 1Sing, 2Sing, 3Sing, 1Plur, 2Plur, 3Plur</td>
+<td align="left">Tense/Mood: Pres, <span style="color: green;">Pfv.Pres, Aor, Impf</span>, Cnd<br>Person/Number: 1Sing, 2Sing, 3Sing, 1Plur, 2Plur, 3Plur</td>
 </tr>
 <tr class="odd">
 <td align="left">CONJ</td>
@@ -390,7 +431,7 @@
 </tr>
 <tr class="even">
 <td align="left">NOUN (NAME, PROPN)</td>
-<td align="left">Type: Coll<br>Gender: Masc, Fem, Neut<br>Case: Nom, Gen, Dat, Acc, Ins, Loc, Voc<br>Number: Sing, Plur, Pauc</td>
+<td align="left">Type: <span style="color: green;">Coll, Dim</span><br>Gender: Masc, Fem, Neut<br>Case: Nom, Gen, Dat, Acc, Ins, Loc, Voc<br>Number: Sing, Plur, Pauc</td>
 </tr>
 <tr class="odd">
 <td align="left">NUM</td>
@@ -398,31 +439,99 @@
 </tr>
 <tr class="even">
 <td align="left">PART</td>
-<td align="left"><span style="color: green;">The question marker <em>li</em> has the feature specification Q and is not translated</span>; <span style="color: red;">(add Neg for ne? - check this)</span> no features are marked for other particles</td>
+<td align="left"><span style="color: green;">The question marker <em>li</em> has the feature specification Q and is not translated</span>; no features are marked for other particles</td>
 </tr>
 <tr class="odd">
 <td align="left">PRON</td>
-<td align="left">Type: Prs, Poss, Dem, Ind, Int, Neg, <span style="color: green;">Refl</span>, Rel<br>(Plus gender, case, number features as relevant. <span style="color: green;">3Sing possessive pronouns must be marked for the gender of the possessor and the possessum; e.g., Poss.Masc.3Sing.Masc.Nom.Sing <em>njegov</em>, Poss.Fem.3Sing.Fem.Nom.Sing <em>njena</em></span>)</td>
+<td align="left">Type: Prs, Poss, Ind, Int, Neg, <span style="color: green;">Refl</span>, Rel<br>(Plus gender, case, number features as relevant. <span style="color: green;">3Sing possessive pronouns must be marked for the gender of the possessor and the possessum; e.g., Poss.Masc.3Sing.Masc.Nom.Sing <em>njegov</em>, Poss.Fem.3Sing.Fem.Nom.Sing <em>njena</em></span>)</td>
 </tr>
 <tr class="even">
 <td align="left">VERB</td>
-<td align="left">Aspect: <span style="color: green;">(imperfective or bi-aspectual verbs are unmarked), Pfv</span><br>Mood: (indicative is unmarked), Imp<br>Tense: Pres, Past, <span style="color: green;">Aor, Impf</span><br>Person/Number: 1Sing, 2Sing, 3Sing, 1Plur, 2Plur, 3Plur<br>Voice: (active is unmarked), Pass<br>Type: (finite is unmarked), Inf, Ptcp, Conv (verbal adverb)<br>(For participles: also gender, case, number features as relevant)</td>
+<td align="left">Aspect: <span style="color: green;">(imperfective or bi-aspectual verbs are unmarked), Pfv</span><br>Mood: (indicative is unmarked), Imp<br>Tense: Pres, Past, <span style="color: green;">Aor, Impf</span><br>Person/Number: 1Sing, 2Sing, 3Sing, 1Plur, 2Plur, 3Plur<br>Voice: (active is unmarked), Pass<br>Type: (finite is unmarked), Inf, <span style="color: green;">Ptcp</span>, Conv<br>(For participles: also gender, case, number features as relevant)</td>
 </tr>
 </tbody>
 </table>
-<p>Examples:</p>
-<p><em>rodila san se u Trvižu</em></p>
-<p><em>rodila</em>: Lemma = rodit, PoS = VERB, Feats = Pfv.Past.Ptcp.Fem.Sing, Gloss = (se) be born</p>
-<p><em>san</em>: Lemma = bit, PoS = AUX, Feats = Pres.3Sing, Gloss = be</p>
-<p><em>se</em>: Lemma = sebe, PoS = PRON, Feats = Refl.Acc.Sing, Gloss = oneself</p>
-<p><em>u</em>: Lemma = u, PoS = ADP, (Feats left blank), Gloss = in</p>
-<p><em>Trvižu</em>: Lemma = Trviž, PoS = PROPN, Feats = Masc.Loc.Sing, Gloss = Trviž</p>
+<p>add examples</p>
 </div>
 <div id="istro-romanian-morphosyntactic-features" class="section level3 hasAnchor" number="5.4.2">
 <h3><span class="header-section-number">5.4.2</span> Istro-Romanian<a href="annotation.html#istro-romanian-morphosyntactic-features" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 </div>
-<div id="istriot-istro-venetian-morphosyntactic-features" class="section level3 hasAnchor" number="5.4.3">
-<h3><span class="header-section-number">5.4.3</span> Istriot and Istro-Venetian<a href="annotation.html#istriot-istro-venetian-morphosyntactic-features" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="istriot-morphosyntactic-features" class="section level3 hasAnchor" number="5.4.3">
+<h3><span class="header-section-number">5.4.3</span> Istriot<a href="annotation.html#istriot-morphosyntactic-features" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="istro-venetian-morphosyntactic-features" class="section level3 hasAnchor" number="5.4.4">
+<h3><span class="header-section-number">5.4.4</span> Istro-Venetian<a href="annotation.html#istro-venetian-morphosyntactic-features" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>We do not use the pronoun type “clitic” to distinguish between clitic and full forms of pronouns.</p>
+<p>With personal pronouns, the full, stressed forms are not marked for case, since the forms are identical in all contexts; e.g., <em>lui</em> ‘he, him’ (Prs.Masc.3Sing). For unstressed pronouns, case is marked, but we do not disambiguate when the same form is used for different cases; e.g., <em>la</em> ‘she’ (Prs.Fem.3Sing.Nom-Acc).</p>
+<p>Other differences from UD (indicated in green in the table below):</p>
+<ul>
+<li><p>For some parts of speech, certain feature values are considered the default value and are unmarked (e.g., positive degree for adjectives or finite forms of verbs)</p></li>
+<li><p>In some instances, abbreviations have been changed to make them unique (e.g., UD specifies Imp as the abbreviation for both imperative mood and imperfect tense) or more widely used terms have been adopted (e.g., the verb form specification Ger “gerund” is deprecated in UD, but this is the standard term in Italian grammar. The gerund is used to form progressive tenses (with the AUX star) or functions as a converb (verbal adverb)).</p></li>
+<li><p>The category NUM is used only for cardinal numerals, so the numeral type (Card, Ord) is not specified. Ordinal numerals are tagged as ADJ, since they function like other adjectives.</p></li>
+<li><p>Abbreviations have been added for categories not included in UD</p></li>
+</ul>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">POS</th>
+<th align="left">Features</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">ADJ</td>
+<td align="left">Degree: (positive is unmarked), Cmp (for irregular, synthetic comparative forms), Sup (for absolute superlatives)<br>Gender: Masc, Fem<br>Number: Sing, Plur<br>e.g., <em>bone</em> Fem.Plur; <em>meio</em> Cmp.Masc.Sing</td>
+</tr>
+<tr class="even">
+<td align="left">ADP</td>
+<td align="left">—</td>
+</tr>
+<tr class="odd">
+<td align="left">ADV</td>
+<td align="left">Degree: (positive is unmarked), Cmp (for irregular, synthetic comparative forms), Sup (for absolute superlatives)<br>e.g., <em>benissimo</em> Sup</td>
+</tr>
+<tr class="even">
+<td align="left">AUX</td>
+<td align="left">Type: (finite is unmarked), Inf, <span style="color: green;">Ptcp</span>, Ger<br>Tense: Pres, Past, Fut <span style="color: green;">Impf</span><br>Mood: (indicative is unmarked) Sub, Cnd, Imp<br>Person/Number: 1Sing, 2Sing, 3Sing, 1Plur, 2Plur, 3Plur<br>(For participles: also gender, number features as for adjectives)<br>e.g., <em>sarà</em> Fut.3Sing</td>
+</tr>
+<tr class="odd">
+<td align="left">CONJ</td>
+<td align="left">—</td>
+</tr>
+<tr class="even">
+<td align="left">DET</td>
+<td align="left">Type: Art, Def, Ind, Dem, Int, Neg, Poss, Rel<br>Gender: Masc, Fem<br>Number: Sing, Plur</td>
+</tr>
+<tr class="odd">
+<td align="left">INTJ</td>
+<td align="left">—</td>
+</tr>
+<tr class="even">
+<td align="left">NOUN (NAME, PROPN)</td>
+<td align="left">Gender: Masc, Fem<br>Number: Sing, Plur<br>e.g., <em>casa</em> NOUN, Fem.Sing; <em>Roma</em> PROPN, Fem.Sing</td>
+</tr>
+<tr class="odd">
+<td align="left">NUM</td>
+<td align="left">Gender: Masc, Fem (for the numeral ‘one’)</td>
+</tr>
+<tr class="even">
+<td align="left">PART</td>
+<td align="left">—</td>
+</tr>
+<tr class="odd">
+<td align="left">PRON</td>
+<td align="left">Type: Prs, Poss, Ind, Int, Neg, <span style="color: green;">Refl</span>, Rel<br>Gender: Masc, Fem<br>Case: (for clitic personal pronouns) Nom, Dat, Acc<br>Person: (for personal and possessive pronouns) 1, 2, 3<br>Number: Sing, Plur<br>e.g., <em>lui</em> Prs.Masc.3Sing; <em>(el libro xe) mio</em> Poss.1Sing.Masc.Sing; <em>lo (go visto)</em> Prs.Masc.3Sing.Acc</td>
+</tr>
+<tr class="even">
+<td align="left">VERB</td>
+<td align="left">Type: (finite is unmarked) Inf, <span style="color: green;">Ptcp</span>, Ger<br>Tense: Pres, Past, Fut <span style="color: green;">Impf</span><br>Mood: (indicative is unmarked), Sub, Cnd, Imp<br>Person/Number: 1Sing, 2Sing, 3Sing, 1Plur, 2Plur, 3Plur<br>(For participles: also gender, number features as for adjectives)<br>e.g., <em>magneria</em> Cnd.Pres.1Sing; <em>andado</em> Ptcp.Masc.Sing</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 <div id="language-contact" class="section level2 hasAnchor" number="5.5">
@@ -430,10 +539,10 @@
 <p>In order to identify possible language contact phenomena of interest for future research (nonce borrowings, code-switches or language mixing), we include a special tier for each speaker in the ELAN files, labeled LC. Simply enter the letter y (for “yes”) if you think the word in question reflects some type of language contact. Established borrowings that are used by most/all speakers and that are considered part of the dialect do not need to be indicated; e.g., the use of Venetian borrowings such as <em>anke, forši</em>, etc. in čakavian dialects.</p>
 </div>
 <div id="translation" class="section level2 hasAnchor" number="5.6">
-<h2><span class="header-section-number">5.6</span> Translation<a href="annotation.html#translation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<h2><span class="header-section-number">5.6</span> Translation and glosses<a href="annotation.html#translation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The corpus will include a free translation of the individual utterances. Slavic varieties will be translated into English, and Romance varieties into English and Croatian.</p>
-<div id="čakavian-translation" class="section level3 hasAnchor" number="5.6.1">
-<h3><span class="header-section-number">5.6.1</span> Čakavian<a href="annotation.html#čakavian-translation" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="čakavian-čakavian-translation" class="section level3 hasAnchor" number="5.6.1">
+<h3><span class="header-section-number">5.6.1</span> Čakavian {čakavian-translation}<a href="annotation.html#čakavian-čakavian-translation" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Some verbs have different meanings when used with reflexive <em>se</em>. While the verbs will be lemmatized without <em>se</em> if they can also be used transitively, the specific meaning should be indicated in the gloss, preceded by (se) in parentheses. For example, Lemma: <em>štimat</em>, Gloss: ‘(se) be proud (of)’. Although <em>rodit se</em> has the predictable passive meaning ‘be born’, in English the translation of the less common transitive form is ‘give birth to’, so the preferred gloss for the lemma <em>rodit</em> accompanied by <em>se</em> is ‘(se) be born’.</p>
 
 </div>
