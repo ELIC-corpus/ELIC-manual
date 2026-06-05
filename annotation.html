@@ -23,7 +23,7 @@
 <meta name="author" content="Keith Langston and Zvjezdana Vrzić" />
 
 
-<meta name="date" content="2026-06-03" />
+<meta name="date" content="2026-06-05" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -588,11 +588,12 @@ Tot: total pronouns (e.g., <em>sva/sa</em> ‘all’, <em>sve</em> ‘everything
 </div>
 <div id="istro-romanian-morphosyntactic-features" class="section level3 hasAnchor" number="5.4.3">
 <h3><span class="header-section-number">5.4.3</span> Istro-Romanian<a href="annotation.html#istro-romanian-morphosyntactic-features" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>We code for the feature Def (definite) in nouns, except for feminine singular forms. In the Zheyanski variety of Istro-Romanian, there is no overt distinction between indefinite and definite feminine singular nouns. In the Vlashki variety, there can be a distinction between indefinite and definite forms of feminine singular nouns (e.g., <em>fętę</em> ‘[a] girl’, <em>fęta</em> ‘[the] girl’). However, there is intra- and inter-speaker variation in the formal marking of this feature, and typically, only one (originally, definite) form is used in both meanings. Because of this variation, we do not mark the feature Def on any feminine singular nouns.</p>
+<p>Some masculine adjectives can carry a postposed definite article -le, but this is infrequent. The feature Def is only marked for masculine adjectives when this overt suffix is present.</p>
+<p>In the Vlashki variety of Istro-Romanian, nouns are normally not marked morphologically for case, with the exception of some vocative forms. In the Zheyanski variety, case marking is more frequent but is not consistently used. Consequently, we do not specify case for nouns unless there is some overt morphological marking (e.g., <em>baba</em> ‘old woman’, <em>babe</em> Sing.Dat, <em>babo</em> Sing.Voc).</p>
+<p>For pronouns, both stressed/full pronouns and unstressed/clitic pronouns have the property of morphological case. When the same form is used for different cases, we disambiguate and mark the case according to the context; e.g., <em>noj</em> ‘we’ (Prs.3Sing.Nom or Prs.3Sing.Acc).</p>
 <p>We do not code for the pronoun type “clitic” to distinguish between clitic and full forms of pronouns.</p>
-<p>Some masculine adjectives can carry a postposed definite article -le. Since this is not a common feature and is variable in use, we do not code for definiteness in adjectives.</p>
-<p>In the Vlashki dialect of Istro-Romanian, nouns are not marked morphologically for case and, consequently, we do not code it in the data coming from that variety. In the Zheyanski dialect, nouns variably have the category of case and case is coded for nouns in that variety when overtly expressed (Gen-Dat).</p>
-<p>We code verbal aspect, but these labels are presumptive, based on the context and morphological features of the verbs in question. Without a detailed study of the aspectual usage in individual varieties, we cannot be certain in all instances that these are correct. Istro-Romanian expresses verbal aspect (perfective and imperfective/iterative/habitual) through morphology. We code for the perfective aspect (Pfv) but only when it is explicitly expressed through verbal morphology, e.g. posurbi (Pfv) ‘slurp (up)’.</p>
-<p>Both stressed/full pronouns and unstressed pronouns have the property of morphological case. When the same form is used for different cases, we disambiguate and mark the case according to the context; e.g., noj ‘we’ (Prs.3Sing.Nom or Prs.3Sing.Acc).</p>
+<p>We code verbal aspect, but without a detailed study of the aspectual usage in individual varieties, we cannot be certain in all instances that the analysis is correct. Istro-Romanian expresses verbal aspect (perfective and imperfective/iterative/habitual) through morphology. We mark the perfective aspect (Pfv) but only when it is expressed by a prefix, e.g. po- in <em>posurbi</em> (Pfv) ‘slurp (up)’), or by the use of a suppletive prefixed perfective verb borrowed from Čakavian (Croatian), e.g. <em>popi</em> (Pfv) ‘drink (up)’.</p>
 <p>Other differences from UD (indicated in green in the table below):</p>
 <ul>
 <li><p>For some parts of speech, certain feature values are considered the default value for the purpose of coding (e.g., finite and indicative forms of verbs; imperfective aspect, etc.).</p></li>
@@ -612,7 +613,7 @@ Tot: total pronouns (e.g., <em>sva/sa</em> ‘all’, <em>sve</em> ‘everything
 <tbody>
 <tr class="odd">
 <td align="left">ADJ</td>
-<td align="left">(Degree: not marked since comparison is expressed periphrastically)<br>Gender: Masc, Fem<br>Number: Sing, Plur</td>
+<td align="left">(Degree: not marked since comparison is expressed periphrastically)<br>Gender: Masc, Fem, Neut<br>Number: Sing, Plur</td>
 </tr>
 <tr class="even">
 <td align="left">ADP</td>
@@ -632,7 +633,7 @@ Tot: total pronouns (e.g., <em>sva/sa</em> ‘all’, <em>sve</em> ‘everything
 </tr>
 <tr class="even">
 <td align="left">DET</td>
-<td align="left">pronoun type and other features as relevant (see below). In addition to the types under PRON below, the pronoun type Art is used only for determiners, with the features Def, Ind. Less commonly used pronoun types are Exc and Emp for exclamative and emphatic determiners.</td>
+<td align="left">Marked for pronoun type and other features as relevant (see below). In addition to the types under PRON below, the pronoun type Art is used only for determiners, with the features Def, Ind. Less commonly used pronoun types are Exc and Emp for exclamative and emphatic determiners.</td>
 </tr>
 <tr class="odd">
 <td align="left">INTJ</td>
@@ -640,7 +641,7 @@ Tot: total pronouns (e.g., <em>sva/sa</em> ‘all’, <em>sve</em> ‘everything
 </tr>
 <tr class="even">
 <td align="left">NOUN (NAME, PROPN)</td>
-<td align="left">Definiteness: (indefinite is unmarked), Def<br>Gender: Masc, Fem<br>Case: Nom-Acc, Gen-Dat, Voc<br>Number: Sing, Plur</td>
+<td align="left">Definiteness: (indefinite is unmarked), Def<br>Gender: Masc, Fem, Neut<br>Number: Sing, Plur<br>Case: Nom-Acc, Gen-Dat, Voc</td>
 </tr>
 <tr class="odd">
 <td align="left">NUM</td>
@@ -652,7 +653,7 @@ Tot: total pronouns (e.g., <em>sva/sa</em> ‘all’, <em>sve</em> ‘everything
 </tr>
 <tr class="odd">
 <td align="left">PRON</td>
-<td align="left">Type: Dem, Ind, Int, Neg, <span style="color: green;">Poss</span>, Prs, <span style="color: green;">Refl</span>, Rel, Tot<br>Gender: Masc, Fem, Neut<br>Person/Number: 1Sing, 2Sing, 3Sing, 1Plur, 2Plur, 3Plur<br>Case: Nom, Gen-Dat, Acc</td>
+<td align="left">Type: Dem, Ind, Int, Neg, <span style="color: green;">Poss</span>, Prs, <span style="color: green;">Refl</span>, Rel, Tot<br>Person/Number: 1Sing, 2Sing, 3Sing, 1Plur, 2Plur, 3Plur<br>Gender: Masc, Fem, Neut<br>Case: Nom, Gen-Dat, Acc</td>
 </tr>
 <tr class="even">
 <td align="left">SCONJ</td>
@@ -660,7 +661,7 @@ Tot: total pronouns (e.g., <em>sva/sa</em> ‘all’, <em>sve</em> ‘everything
 </tr>
 <tr class="odd">
 <td align="left">VERB</td>
-<td align="left">Aspect: (imperfective is unmarked), Pfv<br>Type: (finite is unmarked) Inf, <span style="color: green;">Ptcp</span>, Conv<br>Tense: <span style="color: green;">Ant.Fut, Impf</span>, Pres<br>Mood: (indicative is unmarked), Imp<br>Person/Number: 1Sing, 2Sing, 3Sing, 1Plur, 2Plur, 3Plur<br>(For participles: also gender, number features when used as verbal adjectives)</td>
+<td align="left">Aspect: (imperfective/iterative/habitual is unmarked), Pfv<br>Type: (finite is unmarked) Inf, <span style="color: green;">Ptcp</span>, Conv<br>Tense: <span style="color: green;">AntFut, Impf</span>, Pres<br>Mood: (indicative is unmarked), Imp<br>Person/Number: 1Sing, 2Sing, 3Sing, 1Plur, 2Plur, 3Plur<br>(For participles: also gender, number features when used as verbal adjectives)</td>
 </tr>
 </tbody>
 </table>
@@ -692,24 +693,24 @@ Tot: total pronouns (e.g., <em>sva/sa</em> ‘all’, <em>sve</em> ‘everything
 <td align="left">ręš</td>
 <td align="left">AUX</td>
 <td align="left">Cnd.2Sing</td>
-<td align="left">?</td>
+<td align="left">(you) would</td>
 </tr>
 <tr class="odd">
 <td align="left">ac</td>
 <td align="left">AUX</td>
 <td align="left">Pres.2Plur</td>
-<td align="left">?</td>
+<td align="left">(you) have</td>
 </tr>
 <tr class="even">
 <td align="left">omu</td>
 <td align="left">NOUN</td>
-<td align="left">Def.Masc.Nom-Acc.Sing (definiteness, gender, case, number)</td>
+<td align="left">Def.Masc.Sing.Nom-Acc (definiteness, gender, number, case)</td>
 <td align="left">the man</td>
 </tr>
 <tr class="odd">
 <td align="left">muljerljei</td>
 <td align="left">NOUN</td>
-<td align="left">Def.Fem.Gen-Dat.Plur</td>
+<td align="left">Def.Fem.Plur.Gen-Dat</td>
 <td align="left">(of/to) the women</td>
 </tr>
 <tr class="even">
@@ -721,13 +722,13 @@ Tot: total pronouns (e.g., <em>sva/sa</em> ‘all’, <em>sve</em> ‘everything
 <tr class="odd">
 <td align="left">mire</td>
 <td align="left">PRON</td>
-<td align="left">Prs.1Sing.Gen-Dat</td>
-<td align="left">(of/to) me</td>
+<td align="left">Prs.1Sing.Acc</td>
+<td align="left">me</td>
 </tr>
 <tr class="even">
 <td align="left">fakure</td>
 <td align="left">VERB</td>
-<td align="left">Ant.Fut.3Sing (tense, person, number)</td>
+<td align="left">AntFut.3Sing (tense, person, number)</td>
 <td align="left">(if/when) he/she makes (it)</td>
 </tr>
 <tr class="odd">
@@ -745,20 +746,26 @@ Tot: total pronouns (e.g., <em>sva/sa</em> ‘all’, <em>sve</em> ‘everything
 </tbody>
 </table>
 <p>Definitions and examples of pronoun types (specified for the parts of speech DET and PRON):</p>
-<p>Art: articles (<em>un</em> ‘a’ [Masc], <em>o</em> ‘a’ [Fem])
-Dem: demonstrative pronouns (e.g., <em>česta</em> ‘this’, <em>čela</em> ‘that’)
-Ind: indefinite pronouns (e.g., <em>nuštire</em> ‘someone’)
-Int: interrogative pronouns (e.g., <em>če</em> ‘what’, <em>čire</em> ‘who’)
-Neg: negative indefinite pronouns (e.g., <em>ničur</em> ‘no one’, <em>ničo</em> ‘no’ [Fem])
-Poss: possessive pronouns (e.g., <em>mę</em> ‘my’ [Fem.Sing], <em>nostri</em> ‘our’ [Masc.Plur])
-Prs. personal pronouns (e.g., <em>jo</em> ‘I’, <em>tu</em> ‘you [Sing]’, <em>je</em> ‘he’)
-Refl: reflexive (or reciprocal) pronouns (e.g., <em>me</em> ‘myself’, <em>ve</em> ‘yourself [Plur]’)
-Rel: relative pronouns (e.g., <em>cåra</em> ‘who, which’ [Fem.Sing])
+<p>Art: articles (<em>un</em> ‘a’ [Masc], <em>o</em> ‘a’ [Fem])<br>
+Dem: demonstrative pronouns (e.g., <em>česta</em> ‘this’, <em>čela</em> ‘that’)<br>
+Ind: indefinite pronouns (e.g., <em>nuštire</em> ‘someone’)<br>
+Int: interrogative pronouns (e.g., <em>če</em> ‘what’, <em>čire</em> ‘who’)<br>
+Neg: negative indefinite pronouns (e.g., <em>ničur</em> ‘no one’ [Masc.], <em>ničo</em> ‘no one’ [Fem])<br>
+Poss: possessive pronouns (e.g., <em>mę</em> ‘my’ [Fem.Sing], <em>nostri</em> ‘our’ [Masc.Plur])<br>
+Prs. personal pronouns (e.g., <em>jo</em> ‘I’, <em>tu</em> ‘you [Sing]’, <em>je</em> ‘he’)<br>
+Refl: reflexive (or reciprocal) pronouns (e.g., <em>me</em> ‘myself’, <em>ve</em> ‘yourself [Plur]’)<br>
+Rel: relative pronouns (e.g., <em>cåra</em> ‘who, which’ [Fem.Sing])<br>
 Tot: total pronouns (e.g., <em>tot</em> ‘all’, <em>toc</em> ‘all’ [Masc.Plur])</p>
-<p>For personal and possessive pronouns, the person/number are specified as for verbs (e.g., 1Sing, 2Plur), immediately following the pronoun type. For 3rd person pronouns, the gender of the pronoun is specified before the person and number, followed by case (when relevant). For possessive pronouns, the number and gender for the possessed noun is specified after the person and number for the possessor.</p>
+<p>For personal and possessive pronouns, the person/number are specified as for verbs (e.g., 1Sing, 2Plur), immediately following the pronoun type. For 3rd person pronouns, the gender of the pronoun is specified after the person and number, followed by case (when relevant). For possessive pronouns, the gender and number for the possessed noun is specified after the person and number for the possessor.</p>
 <p>The clitic pronoun <em>se</em> is tagged as Refl in all contexts. In addition to indicating a true reflexive or reciprocal meaning, it is also used to create impersonal and passive forms.</p>
 <p>Examples of feature specifications for determiners and pronouns:</p>
 <table>
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">example</th>
@@ -771,31 +778,31 @@ Tot: total pronouns (e.g., <em>tot</em> ‘all’, <em>toc</em> ‘all’ [Masc.
 <tr class="odd">
 <td align="left">un</td>
 <td align="left">DET</td>
-<td align="left">Art.Ind.Masc.Sing</td>
+<td align="left">Art.Ind.Masc.Sing (type, definiteness, gender, number)</td>
 <td align="left">a</td>
 </tr>
 <tr class="even">
 <td align="left">jelj</td>
 <td align="left">PRON</td>
-<td align="left">Prs.Masc.3Plur</td>
-<td align="left">they</td>
+<td align="left">Prs.3Plur.Masc.Nom-Acc (type, person and number, gender, case)</td>
+<td align="left">they, them</td>
 </tr>
 <tr class="odd">
 <td align="left">tije</td>
 <td align="left">PRON</td>
-<td align="left">Prs.2Sing.Gen-Dat</td>
-<td align="left">(of/to) you</td>
+<td align="left">Prs.2Sing.Dat</td>
+<td align="left">(to) you</td>
 </tr>
 <tr class="even">
 <td align="left">ljej</td>
 <td align="left">PRON</td>
-<td align="left">Prs.Fem.3Sing.Dat</td>
+<td align="left">Prs.3Sing.Fem.Dat</td>
 <td align="left">(to) her</td>
 </tr>
 <tr class="odd">
 <td align="left">mę</td>
 <td align="left">DET</td>
-<td align="left">Poss.1Sing.Fem.Sing</td>
+<td align="left">Poss.1Sing.Fem.Sing (type, person and number [possessor], gender, number [possessum])</td>
 <td align="left">my</td>
 </tr>
 <tr class="even">
@@ -807,7 +814,7 @@ Tot: total pronouns (e.g., <em>tot</em> ‘all’, <em>toc</em> ‘all’ [Masc.
 <tr class="odd">
 <td align="left">čelorę</td>
 <td align="left">DET</td>
-<td align="left">Dem.Masc.Gen-Dat.Plur</td>
+<td align="left">Dem.Masc.Plur.Gen-Dat (type, gender, number, case)</td>
 <td align="left">(of/to) those</td>
 </tr>
 <tr class="even">
